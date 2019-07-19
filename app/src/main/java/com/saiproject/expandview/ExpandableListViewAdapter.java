@@ -80,7 +80,7 @@ public class ExpandableListViewAdapter extends BaseExpandableListAdapter {
             @Override
             public void onClick(View v) {
 
-                Toast.makeText(context,txtView.getText(),Toast.LENGTH_SHORT).show();
+                Toast.makeText(context,txtView.getText(),Toast.LENGTH_LONG).show();
             }
         });
 
